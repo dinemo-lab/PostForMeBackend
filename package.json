@@ -1,0 +1,24 @@
+{
+  "name": "postformebackend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.jsx",
+    "dev":"nodemon index.jsx"
+  },
+  "author": "",
+  "license": "ISC",
+   "type":"module",
+  
+  "description": "",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.9",
+    "oauth-1.0a": "^2.2.6"
+  }
+}
