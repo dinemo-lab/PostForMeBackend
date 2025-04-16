@@ -47,9 +47,10 @@ app.post("/generate-tweet", async (req, res) => {
         {
           parts: [
             {
-              text: `Write a short, engaging, and conversational tweet about: ${topic}. 
-                     Keep it under 280 characters. Don't use hashtags unless specifically requested.
-                     Make it sound natural and personal.`
+              text: `Write a short, engaging tweet about: ${topic}.
+Keep it under 280 characters. Make it sound natural and personal, like something someone would actually post.
+Try to include a relatable insight, surprising idea, clever twist, or emotional hook.
+Avoid hashtags unless explicitly requested.`
             }
           ]
         }
